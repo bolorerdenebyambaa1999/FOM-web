@@ -1,0 +1,10 @@
+:root{
+    --default-news-header-color:white;
+}
+.mainHeader {
+    background-color: gray;
+    color: var(--default-news-header-color);
+}
+.menuItem {
+    color: var(--default-news-header-color);
+}
