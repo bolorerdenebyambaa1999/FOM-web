@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="This is Friends of Mongolia's official web site" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
@@ -12,8 +13,13 @@
 
     <header class="mainheader">
       <nav>
-        <img src="FOM-logo-prime.jpg" alt="Friends of Mongolia Logo" />
-        <ul>
+        <img
+          src="FOM-logo-prime.jpg"
+          class="menu-item logo"
+          alt="Friends of Mongolia Logo"
+          style="max-height: 85px; width: auto"
+        />
+        <ul class="menu-item">
           <li><a href="about-us.html">About us</a></li>
           <li>
             <a href="projects.html"><em>Projects</em></a>
@@ -21,10 +27,14 @@
           <li><a href="membership.html">Membership</a></li>
           <li><a href="news.html">News</a></li>
         </ul>
-        <div class="searchbar">
-          <input type="text" placeholder="Search" />
-          <button type="submit">
-            <img src="search-icon.png" alt="search icon" />
+        <div class="searchbar menu-item">
+          <input class="input-area" type="text" placeholder="Search" />
+          <button class="search-button" type="submit">
+            <img
+              src="search-icon.png"
+              class="search-button-img"
+              alt="search icon"
+            />
           </button>
         </div>
       </nav>
